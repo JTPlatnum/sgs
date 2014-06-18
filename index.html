@@ -111,13 +111,30 @@
             <div class="panel-body lead">
               Our Silver service is provided for our customers with shoes that are meant (and still able) to be worn. Red October Yeezy's? What the Lebron's? This is the service for you. We seal them up and give them our classy nickel 'Stamp of Approval' hang tag. 
               <p><small>$29.99 + return shipping fee ($19.99).</small></p>
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="ZFPP9PSHKFDKE">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-              <a class="coinbase-button" data-code="d7f86e326253e9120bc074e8a3cd2457" data-button-style="buy_now_small" href="https://coinbase.com/checkouts/d7f86e326253e9120bc074e8a3cd2457">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+              <div id="stripe_btn1" class="stripe_btns">
+                <form action="" method="POST">
+                  <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_Ym7ypn8Rh4323DgKWEG2LANO"
+                    data-amount="2000"
+                    data-name="Demo Site"
+                    data-description="Gold Service ($49.98)"
+                    data-image="/128x128.png">
+                  </script>
+                </form>
+              </div>
+              <br>
+              <div id="paypal_btn1" class="paypal_btns">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="ZFPP9PSHKFDKE">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+              <div id="btc_btn1" class="btc_btns">
+                <a class="coinbase-button" data-code="d7f86e326253e9120bc074e8a3cd2457" data-button-style="buy_now_small" href="https://coinbase.com/checkouts/d7f86e326253e9120bc074e8a3cd2457">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+              </div>
             </div>
           </div>
         </div>
@@ -129,14 +146,30 @@
             <div class="panel-body lead">
               Our Gold service is provided for our customers with shoes that would be great in a museum. OG Jordan I Samples? Jordan XI "45" Samples? This is your service. We'll stage them in a re-useable near-museum quality display case with a grade label placed inside the box. 
               <p><small>$74.99 + return shipping ($24.99).</small></p>
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="CG6495CXY4PQA">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-
-              <a class="coinbase-button" data-code="e19a42c2c1ba5ea219c7d1d6adb55854" data-button-style="buy_now_small" href="https://coinbase.com/checkouts/e19a42c2c1ba5ea219c7d1d6adb55854">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+              <div id="stripe_btn2" class="stripe_btns">
+                <form action="" method="POST">
+                  <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_Ym7ypn8Rh4323DgKWEG2LANO"
+                    data-amount="2000"
+                    data-name="Demo Site"
+                    data-description="Gold Service ($99.98)"
+                    data-image="/128x128.png">
+                  </script>
+                </form>
+              </div>
+              <br>
+              <div id="paypal_btn2" class="paypal_btns">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="CG6495CXY4PQA">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+              <div id="btc_btn2" class="btc_btns">
+                <a class="coinbase-button" data-code="e19a42c2c1ba5ea219c7d1d6adb55854" data-button-style="buy_now_small" href="https://coinbase.com/checkouts/e19a42c2c1ba5ea219c7d1d6adb55854">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>  
+              </div>
             </div>
           </div>
         </div>
@@ -167,7 +200,7 @@
           <div class="col-sm-6">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h2 class="panel-title">Please send any and all packages to:</h2>
+                <h2 class="panel-title">Please send packages to:</h2>
               </div>
               <div class="panel-body lead">
                 <small>
@@ -316,6 +349,7 @@
                 <p><strong>IMPORTANT CONSUMER NOTIFICATION:</strong>
                 It is important for consumers to understand that grading 
                 and certification by The Sneaker Savant, LLC does not guarantee protection from common risks associated with a market which is potentially volatile. The degree to which sneakers graded and certified by TSS are liquid will vary according to market conditions at a given time for the sneakers involved. For some collectible sneakers there may, at times, be no active market.</p>
+                <!-- Start Regarding Registry
                 <p><b>Notices regarding TSS’s Census Report</b> </p>
                 <p>The utilization of this report as a tool for assessing the population and value of sneakers in any character or grade is unreliable. The following characteristics inherent in the marketplace undermine the accuracy of this report:</p>
                 <ul>
@@ -325,7 +359,8 @@
                   reports may be misleading</li>
                   <li>Rarity is only one factor that must be weighed in determining the market value of a pair of sneakers</li>
                 </ul>
-                <p>TSS encourages all collectors to seek the counsel of qualified professionals familiar with the certified sneaker marketplace before making any purchase based on this report.</p></div>
+                <p>TSS encourages all collectors to seek the counsel of qualified professionals familiar with the certified sneaker marketplace before making any purchase based on this report.</p></div> 
+                End Regarding Registry -->
           <div class="modal-footer">
             <a class="btn btn-default" data-dismiss="modal">
               Close

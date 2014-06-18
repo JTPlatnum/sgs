@@ -72,6 +72,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #information .panel {
   opacity: 0.85;
 }
@@ -86,6 +87,14 @@ html, body {
   color: white;
 }
 
+.stripe_btns, .paypal_btns, .btc_btns {
+  text-align: center;
+}
+
+.btc_btns {
+  padding-left: 20px;
+}
+
 footer {
   padding: 20px 0;
 }
@@ -95,4 +104,10 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 568px)  {
+  .col-xs-6 {
+    width: 100%;
+  }
 }
