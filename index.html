@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="The Sneaker Savant" />
+  <meta name="description" content="The World's foremost authority on sneaker grading. Get your sneakers professionally graded today!" />
+  <meta name="robots" content="index, follow" />
   <title>The Sneaker Savant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+  <!-- attach JavaScripts -->
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
   <!-- attach CSS styles -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
@@ -60,7 +65,7 @@
         <div class="col-sm-6 text-center">
           <h2>The Sneaker Savant</h2>
           <p class="lead">Professional sneaker grading eliminates concerns about grade misrepresentations by providing a professional assessment of condition and quality.</p>
-          <p class="lead">The Sneaker Savant is the only sneaker grading service in the world. Our graders are serious. Our grades are deadly accurate. Our elegant packaging options are tamper proof and help protect your collection. And our style is impeccable. <h2>Get Graded Today.</h2></p>
+          <p class="lead">The Sneaker Savant is the only sneaker grading service in the world. Our graders are serious. Our grades are deadly accurate. Our elegant packaging options are tamper proof and help protect your collection. And our style is impeccable. <a href="#bizDetails" data-toggle="modal"><h2 class="text-center">Read more...</h2></a><h2>Get Graded Today.</h2></p>
         </div>
       </div>
     </div>
@@ -74,7 +79,7 @@
         <div class="col-sm-3 col-xs-6">
           <i class="glyphicon glyphicon-import"> </i>
           <h4>1. We receive your shoes.</h4>
-          <p>Fill in the form <a href="https://docs.google.com/forms/d/1VIu0h6OKuO2bKA5HIoyHdZFeFlldbTOrcf9TRMRfKmo/viewform" target="_blank">online</a> (or print it out and include in your shipment). Don't send us your boxes. And be sure to clean your shoes before sending them in (dirty shoes get lower grades).</p>
+          <p>For 1-3 pairs, fill in the form <a href="https://docs.google.com/forms/d/1VIu0h6OKuO2bKA5HIoyHdZFeFlldbTOrcf9TRMRfKmo/viewform" target="_blank">online</a> (for 3+ pairs please print <a href="#" target="_blank">this form</a> out and include in your shipment). Do not send us your boxes. And be sure to clean your shoes before sending them in (dirty shoes get lower grades).</p>
         </div>
         <div class="col-sm-3 col-xs-6">
           <i class="glyphicon glyphicon-search"> </i>
@@ -93,9 +98,9 @@
         </div>
       </div>
        <hr />
-       <!-- Open Process Modal -->
-       <a href="#moreDetails" data-toggle="modal"> <h2 class="text-center">More details</h2></a>
-        <!-- / Process Modal -->
+       <!-- Open Grading Modal -->
+       <a href="#gradingDetails" data-toggle="modal"> <h2 class="text-center">More details</h2></a>
+        <!-- / Grading Modal -->
     </div>
   </div>
   <!-- /third section -->
@@ -235,7 +240,7 @@
   <!-- /seventh section -->
   <!-- eight section -->
   <div id="disclaimers" class="col-sm-12">
-    <p><small>International users, please contact us FIRST before ordering.</small></p>
+    <p><small>International users, please <a href="mailto:TheSneakerSavant@gmail.com?Subject=International%20Order" target="_top">contact us</a> FIRST before ordering.</small></p>
     <p><small>Each pair of shoes is methodically examined and reviewed by each of our graders to ensure expert instinctive impressions are in agreement. This intuitive sense has been developed after many years of examining thousands of pairs of shoes. Our experts are extremely familiar with the many different variation, structure and materials used for mass shoe production since the early 80's. The graders then collaborate and employ a scoring system for the final determination of a final grade. Certified items are then given an alpha-numeric registration number and a tamper-evident TSS label is applied to either the hang tag or the container. Shoes that fail our strict examintion standards for certification are returned with an explanation of the inconsistencies.</small></p>
     <p><small> The Sneaker Savant will provide collectors with the finest, most thorough, consistent and accurate grading efforts available in the industry. We guarantee our turn around time - the time in which the shoes are in the possession of The Sneaker Savant (time in transit, weekends and holidays excluded) and begin the day after your order is received. Failure to meet our deadlines will result in a customer refund. The Sneaker Savant shall not be deemed to be in default of or to have breached any provision of this guarantee as a result of any delay, failure in performance or interruption of the Services, resulting directly or indirectly from acts of God, acts of civil or military authority, civil disturbance, war, fire, floods, epidemics, quarantine restrictions, strikes, freight embargoes, transportation contingencies, shortages of facilities, fuel, energy, labor or materials, or laws, regulations, acts or order of any government agency or official thereof, other catastrophes, delays of subcontractors or suppliers arising from unforeseeable causes beyond the control and without the fault or negligence of either the Contractor or the subcontractors or suppliers, or any other circumstances beyond Provider's reasonable control. In the event of any such delay or failure, the parties shall defer performance of the Services to a date and time mutually agreeable.</small></p> 
   </div>
@@ -251,15 +256,41 @@
     </div>
   </footer>
   <!-- /footer -->
-  <!-- Modal More Details -->
-    <div class="modal fade" id="moreDetails" role="dialog">
+    <!-- Modal BizDetails -->
+    <div class="modal fade" id="bizDetails" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>About</h4>
+          </div>
+          <div class="modal-body">
+            <div id="PageContent">
+              <p>The Sneaker Savant has been collecting shoes for longer than most sneakerheads have been alive. </p>
+              <p>The first pair of shoes that The Sneaker Savant fell in love with was the Black Cement Jordan IV's nearly 25 years ago. He can tell you exactly where he saw them (in the mountains of Northern California), how old he was (9), and how jealous he was of the guy wearing them (very). It took The Sneaker Savant two full years of washing dishes every night (making $10 a month allowance) just so he could afford his first pair of Air Jordans - the Black/Infrared VI's. </p>
+              <p>Having grown up, The Sneaker Savant has spent countless days, months, and years digging up and searching for rare and vintage sneakers. From the Mountains of Northern California to the Bodegas of Brooklyn, the Arcades of London to the Rues of Paris, the Harajuku of Japan and the Bazaars of Africa - The Sneaker Savant has travelled the world seeking out the freshest kicks in the world.</p>
+              <p>You may have heard some of The Sneaker Savants archaeological adventures - 40 pairs of Carhartt SBs for $20 each? $34 for Authentic Original Air Jordan IV's advertised as fakes? $38 for PE XIII's? $28 for Paris SBs? The list goes on and on and on...</p>
+              <p>With nearly 15 years of experience selling sneakers on eBay, craigslist and meetups all over the world, The Sneaker Savant has maintained a flawless 100% feedback rating over the course of his career. He is known throughout the industry as a straightforward and serious collector of sneakers. From fakes to b-grades to player exclusives to f&f and sales samples to originals, retros and re-issues, The Sneaker Savant has seen it all.</p>
+              <p>In 2010, sight unseen, The Sneaker Savant struck a deal with a fellow sneaker head that resulted in The Sneaker Savant receiving a pair of sneakers rated as 'excellent condition 9/10' but, upon receipt, were so worn that they literally had holes in the soles, The Sneaker Savant decided something had to be done. In 2013, The Sneaker Savant teamed up with fellow collectors, friends, consultants, colleagues, lawyers and advisors to determine a fair, unbiased and accurate algorithm for sneaker grading with the sole purpose of leveling the playing field. In 2014, The Sneaker Savant is offering his services to the world. </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-default" data-dismiss="modal">
+              Close
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- /Modal BizDetails -->
+  <!-- Modal Grading Details -->
+    <div class="modal fade" id="gradingDetails" role="dialog">
       <div class = "modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4>Processing Details</h4>
+            <h4>Grading Process Details</h4>
           </div>
           <div class="modal-body">
-            <h4>International users, please contact us FIRST before ordering.</h4>
+            <h4>International users, please <a href="mailto:TheSneakerSavant@gmail.com?Subject=International%20Order" target="_top"> contact us </a> FIRST before ordering.</h4>
             <h4>1. We receive your shoes.</h4>
             <p>Preferably clean (dirty shoes get lower grades). No boxes. TSS’s receiving department opens newly arrived packages each morning and immediately verifies that the number of shoes in each package matches the number shown on the invoice. Once this is done, a more detailed comparison is made to ensure that their invoice descriptions correspond to the actual shoes. This information is traceable at all stages of the grading process by the invoice number. Before any grading is performed, each pair is examined by a restoration detection professional. If any form of restoration work is detected, this information is noted so that it will be available to the grading team.</p>
             <h4>2. We inspect and grade your shoes.</h4>
@@ -277,7 +308,7 @@
         </div>
       </div>
     </div>
-  <!-- /Modal More Details -->
+  <!-- /Modal Grading Details -->
   <!-- Modal Legal -->
     <div class="modal fade" id="legalDetails" role="dialog">
       <div class = "modal-dialog">
@@ -359,8 +390,9 @@
                   reports may be misleading</li>
                   <li>Rarity is only one factor that must be weighed in determining the market value of a pair of sneakers</li>
                 </ul>
-                <p>TSS encourages all collectors to seek the counsel of qualified professionals familiar with the certified sneaker marketplace before making any purchase based on this report.</p></div> 
-                End Regarding Registry -->
+                <p>TSS encourages all collectors to seek the counsel of qualified professionals familiar with the certified sneaker marketplace before making any purchase based on this report.</p> End Regarding Registry -->
+              </div> 
+            </div>
           <div class="modal-footer">
             <a class="btn btn-default" data-dismiss="modal">
               Close
@@ -370,9 +402,5 @@
       </div>
     </div>
   <!-- /Modal Legal -->
-  <!-- attach JavaScripts -->
-  <script src="js/jquery-1.11.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>
