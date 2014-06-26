@@ -5,6 +5,14 @@ html, body {
   font-family: 'Cinzel', serif;
 }
 
+p {
+  color: #8d8d8d;
+  font-family: 'Marcellus', serif;
+  line-height: 1.5;
+  text-align: initial;
+  letter-spacing: 0.01em;
+}
+
 /* padded section */
 .pad-section {
   padding: 50px 0;
@@ -93,6 +101,11 @@ html, body {
 
 .btc_btns {
   padding-left: 20px;
+}
+
+ul li {
+  text-align: left;
+
 }
 
 footer {
