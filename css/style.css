@@ -33,6 +33,10 @@ p {
   padding: 0;
 }
 
+.text-vcenter.services {
+  display: block;
+}
+
 /* additional sections */
 #home {
   background: url(../images/galaxyopac.png) no-repeat center center fixed;
@@ -71,7 +75,7 @@ p {
   background-repeat:repeat-x;
   background-repeat:repeat-y;
   display: table;
-  height: 800px;
+  height: 650px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -89,9 +93,13 @@ p {
   width: 100%;
 }
 
-#theFinePrint {
+#ourGuarantee {
   background: black;
   color: white;
+}
+
+#PageContent img {
+  height: 250px;
 }
 
 .stripe_btns, .paypal_btns, .btc_btns {
@@ -103,8 +111,12 @@ p {
 }
 
 ul li {
-  text-align: left;
+  text-align: center;
 
+}
+
+.correspondence {
+  text-align: center;
 }
 
 footer {
