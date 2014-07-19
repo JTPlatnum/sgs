@@ -81,6 +81,7 @@
  <div class="emailSignupHeader text-vcenter">
     <h2>The Sneaker Savant is about to standardize the Sneaker galaxy. Introducing...</h2>
     <h1>...Professional Sneaker Grading...</h1><br>
+    <h3>Sneaker grading is a method of standardizing and determining the condition and value of a particular pair of shoes. </h3>
 <!--       <h3>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</h3>
       <h2>The services we will be offering:</h2> -->
       <div class="col-sm-6">
