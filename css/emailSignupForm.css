@@ -1,0 +1,106 @@
+
+/*START EmailEntryForm CSS*/
+* { 
+    padding:0;
+    margin:0;
+}
+ 
+/*body {
+    font-size:18px;
+    font-family: 'Cinzel', serif;   
+}*/
+
+.emailSignupHeader {
+	background: black;
+	color: white;
+  padding: 15px;
+  height: auto;
+}
+
+.emailSignupForm {
+	background: white;
+	color: black;
+}
+
+.text-vcenter {
+	display: block;
+}
+
+fieldset {
+    font-family: 'EB Garamond', serif;
+    border:none;
+    font-size: 17px;  
+    text-align: center;   
+    background: white;
+    padding: 15px 15px;
+}
+ 
+form {
+    width:90%;
+    margin:5% auto;    
+    padding:10px;
+    border:solid 10px white;
+}
+ 
+input {
+    border:none;
+    background-color:none;  
+}
+
+#newsletter-signup label {
+	font-family: 'Cinzel', serif
+}
+ 
+#signup-email {
+    border:1px solid #999999;
+    color:#9E9E9E;
+    padding:5px;
+    width: 300px;
+}
+ 
+#signup-email:focus {
+    border-color:#9FCBFF;
+    background-color:#DFEEFF;
+    background-image:none;
+    color:#000;
+}
+ 
+#signup-button {
+    background-color:#000;
+    color:#fff;
+    padding:15px; 
+    margin: 5px;
+}
+ 
+#signup-button:hover {
+    cursor:pointer;
+    background-color:#cccccc
+}
+ 
+#signup-response {
+    display:inline;
+    margin-left:4px;
+    padding-left:20px;
+}
+ 
+.response-waiting {
+    background:url(../images/loading.gif) left top no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+}
+ 
+.response-success {
+   background:url(../images/tick.png) left top no-repeat;
+   height: 20px;
+   width: 20px;
+   background-size: contain;
+}
+ 
+.response-error {
+   background:url(../images/cross.png) left top no-repeat;
+   height: 20px;
+   width: 20px;
+   background-size: contain;   
+}
+/*END EmailEntryForm CSS*/
