@@ -1,54 +1,3 @@
-<?php 
-	if($_GET['action'] == 'signup'){
-    mysql_connect('localhost','mapmarki','mapadmin12');  
-    mysql_select_db('mapmarki_tss');
- 
-    //sanitize data
-    $email = mysql_real_escape_string($_POST['signup-email']);
- 
-    //validate email address - check if input was empty
-    if(empty($email)){
-        $status = "error";
-        $message = "You did not enter an email address!";
-    }
-    else if(!preg_match('/^[^\W][a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\@[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\.[a-zA-Z]{2,4}$/', $email)){ //validate email address - check if is a valid email address
-        $status = "error";
-        $message = "You have entered an invalid email address!";
-    }
-    else {
-       $existingSignup = mysql_query("SELECT * FROM signups WHERE signup_email_address='$email'");   
-       if(mysql_num_rows($existingSignup) < 1){
- 
-           $date = date('Y-m-d');
-           $time = date('H:i:s');
- 
-           $insertSignup = mysql_query("INSERT INTO signups (signup_email_address, signup_date, signup_time) VALUES ('$email','$date','$time')");
-           if($insertSignup){
-               $status = "success";
-               $message = "   You have been signed up. Thank you!";   
-           }
-           else {
-               $status = "error";
-               $message = "   Ooops, Theres been a technical error! Please try again in 15 seconds.";  
-           }
-        }
-        else {
-            $status = "error";
-            $message = "   This email address has already been registered!";
-        }
-    }
- 
-    //return json response 
-    $data = array(
-        'status' => $status,
-        'message' => $message
-    );
- 
-    echo json_encode($data);
- 
-    exit;
-} ?>
-
 <html lang="en" >
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -82,7 +31,7 @@
   <img src="images/TSSFullWhite.png"/>
     <h2>We are set to change the industry forever. You might want to get in on the ground floor. Introducing...</h2>
     <h1><i class="glyphicon glyphicon-star"> </i>Professional Sneaker Grading <i class="glyphicon glyphicon-star"> </i></h1>
-    <br>
+    <h3>Sneaker grading is a method of standardizing and determining the condition and value of a particular pair of shoes. </h3><br>
 <!--       <h3>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</h3>
       <h2>The services we will be offering:</h2> -->
       <div class="col-sm-6">
@@ -104,7 +53,7 @@
             </div>
             <div class="panel-body lead">
               <p>
-              Our Gold service is provided for our customers with shoes that would be great in a museum. Jordan XI "45" Samples? This is your service. We'll grade and stage them in a near-museum quality acrylic display case. 
+              Our Gold service is provided for our customers with shoes that would be great in a museum. Jordan XI "45" Samples? This is your service. We'll grade and stage them in a near-museum quality display case. 
               </p>
             </div>
           </div>
@@ -122,9 +71,6 @@
             <p id="signup-response"></p>
         </fieldset>
       </form>
-  </div>
-  <div class="emailSignupForm text-vcenter">
-    <p>Sneaker grading is a method of standardizing and determining the condition and value of a particular pair of shoes. </p>
   </div>
 </body>
 </html>
