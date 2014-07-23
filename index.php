@@ -1,4 +1,11 @@
-<meta http-equiv="refresh" content="0.1; url=http://www.thesneakersavant.com/emailSignupForm.php">
+<?php
+
+if (!isset($_GET['testingx']) || $_GET['testingx'] != 'hello') {
+  header("Location: emailSignupForm.php");
+  exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -332,6 +339,7 @@
   <!-- /Modal Legal -->
 </body>
 </html>
+
                             
                             
                             

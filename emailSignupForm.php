@@ -1,7 +1,7 @@
-<?php 
-	if($_GET['action'] == 'signup'){
-    mysql_connect('localhost','mapmarki','mapadmin12');  
-    mysql_select_db('mapmarki_tss');
+                                <?php 
+  require_once('dbConnect.php');
+
+	if($_POST['action'] == 'signup'){
  
     //sanitize data
     $email = mysql_real_escape_string($_POST['signup-email']);
@@ -92,7 +92,7 @@
             </div>
             <div class="panel-body lead">
               <p>
-               Our Silver service is provided for our customers with shoes that are meant (and still able) to be worn. Red October Yeezy's? This is the service for you. We'll grade and seal them up and give them our classy hang tag. 
+               Our Silver service is provided for our customers with shoes that are meant (and still able) to be worn. Red October Yeezy's? This is the service for you. We'll grade, seal them up and give them our classy hang tag. 
               </p>
             </div>
           </div>
@@ -113,7 +113,8 @@
         <h3>Enter your email address below for exclusive offers, promos and discounts!</h3>
       </div>
    <div class="emailSignupForm text-vcenter">
-        <form id="newsletter-signup" action="?action=signup" method="post">
+        <form id="newsletter-signup" method="post">
+          <input type="hidden" value="signup" name="action">
         <fieldset>
             <h3><label for="signup-email">Sign up to get 20% off your first order:</label></h3><br>
             <input type="text" name="signup-email" id="signup-email" />
@@ -128,3 +129,4 @@
   </div>
 </body>
 </html>
+                            
