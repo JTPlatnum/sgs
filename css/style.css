@@ -3,12 +3,12 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
   color: #8d8d8d;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01em;
 }
@@ -160,7 +160,7 @@ footer .glyphicon:hover {
 }
 
 fieldset {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', serif;
     border:none;
     font-size: 17px;  
     text-align: center;   

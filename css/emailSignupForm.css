@@ -11,17 +11,66 @@
 }*/
 
 .emailSignupHeader {
-	background: black;
-	color: white;
+	background: white;
+	color: black;
     padding: 15px;
-    height: auto;
 }
 
-.emailSignupHeader img {
+.emailSignupHeader img#banner {
     height: auto;
     width: 100%;
     border-bottom: 1px solid white;
     padding: 10px;
+}
+
+#banner_container {
+    color: white;
+}
+
+#banner_container, #services_container {
+    /*background: url(../images/sneakersopac.png) repeat fixed;*/
+    background: black;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    display: table;
+    height: 150px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#services {
+    background: white;
+    color: black;
+}
+
+#services .col-sm-4 img {
+    max-height: 130px;
+    width: auto;
+}
+
+.col-sm-12 img {
+    width: 100%;
+}
+
+img#logoType {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+img.medals {
+    height: 20px;
+    width: 20px; 
+    margin: 5px;
 }
 
 .emailSignupForm {
@@ -34,7 +83,7 @@
 }
 
 fieldset {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
     border:none;
     font-size: 17px;  
     text-align: center;   
@@ -58,9 +107,9 @@ input {
 }
 
 #newsletter-signup label {
-	font-family: 'Cinzel', serif
+	font-family: 'Open Sans', serif
 }
- 
+
 #signup-email {
     border:1px solid #999999;
     color:#9E9E9E;
@@ -84,7 +133,7 @@ input {
  
 #signup-button:hover {
     cursor:pointer;
-    background-color:#cccccc
+    background-color:#E55741;
 }
  
 #signup-response {
