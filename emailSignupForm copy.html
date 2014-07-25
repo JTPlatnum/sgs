@@ -179,7 +179,7 @@
         <form id="newsletter-signup" method="post">
           <input type="hidden" value="signup" name="action">
         <fieldset>
-            <h2>Sign up. Stay tuned.</h2><br><br><label for="signup-email">We're going to be introducing some very interesting products and information in the coming weeks. Sign up today to get 20% off your first order:</label><br>
+            <h2>Sign up. Stay tuned.</h2><br><br><label for="signup-email">We're going to be introducing some very interesting products and information in the coming weeks. <br>Sign up today to get 20% off your first order:</label><br>
             <input type="text" name="signup-email" id="signup-email" />
             <input type="submit" id="signup-button" value="Sign Up!" />
             <br><br>
