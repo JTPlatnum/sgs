@@ -165,7 +165,7 @@
         <h2>The Product</h2> 
       </div>
       <div class="col-sm-9">
-        <p>Regardless of the on the service you've chosen, we provide unique tamper-proof packaging for your needs. Our silver service Be the envy of the industry with crystal clear acrylic boxes showing off your prized possessions.</p>
+        <p>Regardless of the service you've chosen, we provide a unique service with elegant results. We inspect your shoes inside and out and give them a grade we can stand behind. We take care of your shoes and think you should too. Get your grails out of your closet and send them to us. We'll provide you with the tools to show them to the world!</p>
       </div>
     </div>
   <hr/>
@@ -267,4 +267,4 @@
     </div>
   <!-- /Modal Legal -->
 </body>
-</html>                        
+</html>
