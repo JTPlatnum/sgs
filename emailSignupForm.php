@@ -86,16 +86,17 @@
   </div>  
   <div id="banner_container" class="pad-section text-vcenter">
     <div class="col-sm-12">
-      <h3 class="text-vcenter">Premium Service</h3>
+      <p class="text-vcenter">Premium Service</p>
     </div>
     <div class="col-sm-12 banner">
-      <h2><i class="glyphicon glyphicon-star"></i>We Grade Sneakers<i class="glyphicon glyphicon-star"></i></h2>
+      <h2>
+        <i class="glyphicon glyphicon-star"></i>We Grade Sneakers<i class="glyphicon glyphicon-star"></i>
+      </h2>
     </div>
     <div class="col-sm-12 pad-section">
-      <p>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</png>
+      <p>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</p><p><a href="#">And who are "we"?</a></p>
     </div>  
     </div>
-      <br>
 <!-- end header section -->
 <!-- start process and steps section -->
   <div id="process_container" class="pad-section">
@@ -105,7 +106,7 @@
         <h2>Our Process</h2> 
       </div>
       <div class="col-sm-9">
-        <p>As true sneakerheads, we take extra special care in grading and staging your prized possessions for display or for sale. Our unique grading algorithm ensures that you're getting the most accurate rating in the industry. </p>
+        <p>Sneaker grading is a method of standardizing the condition of a particular pair of shoes. Using our grading service helps determine the true value of a particular pair of shoes. As true sneakerheads, we take extra special care in grading and staging your prized possessions for display or prepping them for sale. Our unique grading algorithm ensures that you're getting the most accurate rating in the industry. </p>
       </div>
     </div>
   <hr/>
@@ -129,56 +130,56 @@
   </div>
 <!-- end process and steps section    -->
 <!-- start services section -->
-    <div id="services_container" class="pad-section">
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h2 class="panel-title"><img class="medals" src="images/logoCircleSilver.png"/>Silver Service<img class="medals" src="images/logoCircleSilver.png"/></h2>
-          </div>
-          <div class="panel-body lead">
-            <p>
-             Our Silver service is provided for our customers with shoes that are meant to be worn. 
-            </p>
-          </div>
+  <div id="services_container" class="pad-section">
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><img class="medals" src="images/logoCircleSilver.png"/>Silver Service<img class="medals" src="images/logoCircleSilver.png"/></h2>
+        </div>
+        <div class="panel-body lead">
+          <p>
+           Our Silver service is provided for our customers with shoes that are meant to be worn.
+          </p>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h2 class="panel-title"><img class="medals" src="images/logoCircleGold.png"/>Gold Service<img class="medals" src="images/logoCircleGold.png"/></h2>
-          </div>
-          <div class="panel-body lead">
-            <p>
-            Our Gold service is provided for our customers with shoes that would be great in a museum.
-            </p>
-          </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><img class="medals" src="images/logoCircleGold.png"/>Gold Service<img class="medals" src="images/logoCircleGold.png"/></h2>
+        </div>
+        <div class="panel-body lead">
+          <p>
+          Our Gold service is provided for our customers with shoes that would be great in a museum.
+          </p>
         </div>
       </div>
-    </div>  
+    </div>
+  </div>  
 <!-- end services section     -->
 <!-- start the product section -->
-    <div id="product_container" class="pad-section">
+  <div id="product_container" class="pad-section">
       <hr/>
     <div class="text_container">
       <div class="text-center col-sm-3">
         <h2>The Product</h2> 
       </div>
       <div class="col-sm-9">
-        <p>Our unique packaging options ensure a sturdy (and tamper-proof) display. Be the envy of the industry with crystal clear acrylic boxes showing off your prized possessions.</p>
+        <p>Regardless of the on the service you've chosen, we provide unique tamper-proof packaging for your needs. Our silver service Be the envy of the industry with crystal clear acrylic boxes showing off your prized possessions.</p>
       </div>
     </div>
   <hr/>
     <div class="images_container col-sm-12">
         <img src="images/finalPigeon.png"/>
     </div>
-   </div>
+  </div>
 <!-- end the product section    -->
 <!-- start signup section -->
    <div class="emailSignupForm text-vcenter">
         <form id="newsletter-signup" method="post">
           <input type="hidden" value="signup" name="action">
         <fieldset>
-            <h3>Sign up. Stay tuned.<br><br><label for="signup-email">Sign up today to get 20% off your first order:</label></h3><br>
+            <h2>Sign up. Stay tuned.</h2><br><br><label for="signup-email">Sign up today to get 20% off your first order:</label><br>
             <input type="text" name="signup-email" id="signup-email" />
             <input type="submit" id="signup-button" value="Sign Up!" />
             <br><br>
@@ -187,18 +188,19 @@
       </form>
   </div>
 <!-- end signup section   -->
-  <div class="emailSignupForm text-vcenter">
+<!-- start footer section -->
+<!--   <div class="text-vcenter">
     <p>Sneaker grading is a method of standardizing and determining the condition and value of a particular pair of shoes. </p>
-  </div>
+  </div> -->
   <footer>
-    <hr />
     <div class="container" class="col-sm-12">
       <p class="text-right">
-        <a href="#legalDetails" data-toggle="modal"> Legal </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Copyright &copy; The Sneaker Savant 2014
+        <a href="#legalDetails" data-toggle="modal"> Legal </a><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Copyright &copy; The Sneaker Savant 2014</small>
       </p>
     </div>
   </footer>
+<!-- end footer section   -->
 <!-- Modal Legal -->
     <div class="modal fade" id="legalDetails" role="dialog">
       <div class = "modal-dialog">

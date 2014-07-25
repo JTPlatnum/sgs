@@ -8,23 +8,24 @@ html, body {
   letter-spacing: 0.01em;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Oswald', sans-serif;
-}
-
-.glyphicon {
-  margin: 10px;
-  vertical-align: middle;
-}
-
 hr {
   border-top: 5px solid #000;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  /*text-shadow: 0px 1px 15px #fff;*/
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01em;
+}
+
+.glyphicon {
+  margin: 10px;
+  vertical-align: middle;
 }
 
 /* padded section */
@@ -36,7 +37,6 @@ p {
   width: 100%;
 }
 
-/* vertical-centered text */
 .text-vcenter {
   display: table-cell;
   text-align: center;
@@ -47,11 +47,6 @@ p {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  /*text-shadow: 0px 1px 15px #fff;*/
-}
-
-h3 {
-    /*text-shadow: 0px 1px 15px #fff;*/
 }
 
 .text-vcenter.services {
@@ -157,93 +152,3 @@ footer .glyphicon:hover {
   }
 }
 /*END Index CSS*/
-
-
-/*START EmailEntryForm CSS*/
-* { 
-    padding:0;
-    margin:0;
-}
- 
-/*body {
-    font-size:18px;
-    font-family: 'Cinzel', serif;   
-}*/
-
-#home.emailSignup {
-  padding: 15px;
-}
-
-fieldset {
-    font-family: 'Open Sans', serif;
-    border:none;
-    font-size: 17px;  
-    text-align: center;   
-    background: white;
-    padding: 15px;
-}
- 
-form {
-    width:50%;
-    margin:5% auto;    
-    padding:10px;
-    border:solid 10px black;
-}
- 
-input {
-    border:none;
-    background-color:none;  
-}
- 
-#signup-email {
-    border:1px solid #999999;
-    color:#9E9E9E;
-    padding:5px;
-    width: 150px;
-}
- 
-#signup-email:focus {
-    border-color:#9FCBFF;
-    background-color:#DFEEFF;
-    background-image:none;
-    color:#000;
-}
- 
-#signup-button {
-    background-color:#000;
-    color:#FFF;
-    padding:5px; 
-}
- 
-#signup-button:hover {
-    cursor:pointer;
-    background-color:#551A8B;
-}
- 
-#signup-response {
-    display:inline;
-    margin-left:4px;
-    padding-left:20px;
-}
- 
-.response-waiting {
-    background:url(../images/loading.gif) left top no-repeat;
-    height: 20px;
-    width: 20px;
-    background-size: contain;
-}
- 
-.response-success {
-   background:url(../images/tick.png) left top no-repeat;
-   height: 20px;
-   width: 20px;
-   background-size: contain;
-}
- 
-.response-error {
-   background:url(../images/cross.png) left top no-repeat;
-   height: 20px;
-   width: 20px;
-   background-size: contain;   
-}
-/*END EmailEntryForm CSS*/
