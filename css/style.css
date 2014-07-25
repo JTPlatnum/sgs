@@ -53,12 +53,6 @@ p {
   display: block;
 }
 
-
-
-
-
-
-
 /* additional sections */
 #home {
   background: url(../images/galaxyopac.png) no-repeat center center fixed;
@@ -142,7 +136,7 @@ ul li {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0px 0px 20px 0px;
   background: black;
   color: white;
 }

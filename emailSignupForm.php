@@ -85,14 +85,36 @@
     </div>
   </div>  
   <div id="banner_container" class="pad-section text-vcenter">
-    <div class="col-sm-12">
-      <p class="text-vcenter">Premium Service</p>
-    </div>
+    
+
+<!--     <div class="col-sm-12 banner">
+      <h2>
+        <div class="col-sm-2">
+          <i class="glyphicon glyphicon-star"></i>
+        </div>
+        <div class="col-sm-8"><span class="upper">We Grade Sneakers</span></div>
+        <div class="col-sm-2">
+          <i class="glyphicon glyphicon-star"></i>
+        </div>
+      </h2>
+    </div> -->
+
+
+
     <div class="col-sm-12 banner">
       <h2>
-        <i class="glyphicon glyphicon-star"></i>We Grade Sneakers<i class="glyphicon glyphicon-star"></i>
+        <div class="col-sm-3">
+          
+        </div>
+        <div class="col-sm-12">
+          <i class="glyphicon glyphicon-star"></i>
+          <span class="upper">We Grade Sneakers</span>
+          <i class="glyphicon glyphicon-star"></i>
+        </div>
       </h2>
     </div>
+
+
     <div class="col-sm-12 pad-section">
       <p>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</p><p><a href="#bizDetails" data-toggle="modal">Who is The Sneaker Savant?</a></p>
     </div>  
@@ -114,7 +136,7 @@
     <div class="images_container">  
       <div class="row text-center">
         <div class="col-sm-4 col-xs-6">
-          <img src="images/step1.png"/>
+          <img id="shoes" src="images/step1.png"/>
           <p>1. You send us your shoes. Insured.</p>
         </div>
         <div class="col-sm-4 col-xs-6">
@@ -123,7 +145,7 @@
         </div>
         <div class="col-sm-4 col-xs-6">
            <img src="images/step3.png"/>
-          <p>3. We'll send them back (or along to their next desination). </p>
+          <p>3. We'll send them back (or to their next desination). </p>
         </div>
       </div>
     </div>
@@ -134,11 +156,14 @@
     <div class="col-sm-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2><img class="medals" src="images/logoCircleSilver.png"/>Silver Service<img class="medals" src="images/logoCircleSilver.png"/></h2>
+          <h2>
+            <i class="glyphicon glyphicon-certificate silver"></i>
+            Silver Service
+            <i class="glyphicon glyphicon-certificate silver"></i></h2>
         </div>
         <div class="panel-body lead">
           <p>
-           Our Silver service is provided for our customers with shoes that are meant to be worn. We grade your shoes, give them our hologram grade hang tag and seal them in clear 6 mil polypropelene. 
+           The Silver service is provided for our customers with shoes that are meant to be worn. We grade your shoes, give them our hologram grade hang tag and seal them in clear 6 mil polypropelene. 
           </p>
         </div>
       </div>
@@ -146,11 +171,14 @@
     <div class="col-sm-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2><img class="medals" src="images/logoCircleGold.png"/>Gold Service<img class="medals" src="images/logoCircleGold.png"/></h2>
+          <h2>
+            <i class="glyphicon glyphicon-certificate gold"></i> Gold Service
+            <i class="glyphicon glyphicon-certificate gold"></i>
+          </h2>
         </div>
         <div class="panel-body lead">
           <p>
-          Our Gold service is provided for our customers with shoes that would be great in a museum. We grade your shoes, give them our hologram grade sticker and place both inside a sturdy sealed acrylic box.
+          The Gold service is provided for our customers with shoes that would be great in a museum. We grade your shoes, give them our hologram grade sticker and place both inside a sturdy sealed acrylic box.
           </p>
         </div>
       </div>
@@ -171,7 +199,7 @@
   <hr/>
     <div class="images_container col-sm-12">
         <img src="images/finalPigeon.png"/>
-    </div>
+    </div>  
   </div>
 <!-- end the product section    -->
 <!-- start signup section -->
@@ -179,7 +207,8 @@
         <form id="newsletter-signup" method="post">
           <input type="hidden" value="signup" name="action">
         <fieldset>
-            <h2>Sign up. Stay tuned.</h2><br><br><label for="signup-email">We're going to be introducing some very interesting products and information in the coming weeks. <br>Sign up today to get 20% off your first order:</label><br>
+            <h2>Sign up. Stay tuned.</h2>
+            <br><label for="signup-email">We're going to be introducing some interesting products and information in the coming weeks. <br>Sign up today to get 20% off your first order:</label><br>
             <input type="text" name="signup-email" id="signup-email" />
             <input type="submit" id="signup-button" value="Sign Up!" />
             <br><br>
@@ -267,4 +296,4 @@
     </div>
   <!-- /Modal Legal -->
 </body>
-</html>
+</html>                        

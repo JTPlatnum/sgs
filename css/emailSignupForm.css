@@ -11,7 +11,16 @@ body {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 span.upper {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .emailSignupHeader {
@@ -42,6 +51,14 @@ h2 {
     -o-background-size: cover;
     background-size: cover;
 
+}
+
+i.glyphicon.silver {
+    color: silver;
+}
+
+i.glyphicon.gold {
+    color: gold;
 }
 
 .banner h2 {
@@ -102,6 +119,11 @@ img.medals {
     max-height: 130px;
     width: auto;
     max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.col-sm-4 img#shoes {
+    max-width: 300px;
 }
 
 .col-sm-12 img {
@@ -202,4 +224,10 @@ input {
 #bizDetails #PageContent img {
     padding-right: 10px; 
     float: left;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 756px)  {
+  .text_container .col-sm-9 {
+    border-left: 0px solid white;
+  }
 }
