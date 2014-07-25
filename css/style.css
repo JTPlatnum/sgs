@@ -4,10 +4,24 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.glyphicon {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+hr {
+  border-top: 5px solid #000;
 }
 
 p {
-  color: #8d8d8d;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01em;
@@ -15,7 +29,8 @@ p {
 
 /* padded section */
 .pad-section {
-  padding: 50px 0;
+  padding: 25px;
+  display: inline-block;
 }
 .pad-section img {
   width: 100%;
@@ -32,11 +47,11 @@ p {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  text-shadow: 0px 1px 15px #fff;
+  /*text-shadow: 0px 1px 15px #fff;*/
 }
 
 h3 {
-    text-shadow: 0px 1px 15px #fff;
+    /*text-shadow: 0px 1px 15px #fff;*/
 }
 
 .text-vcenter.services {

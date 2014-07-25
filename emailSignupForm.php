@@ -74,40 +74,61 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/emailSignupForm.css" rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Cinzel|Open+Sans|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Oswald' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>
-   <div class="emailSignupHeader text-vcenter">
-    <img id="logoType" src="images/TSSFull.png"/>
-    <div id="banner_container" class="pad-section">
-      <div class="col-sm-3 banner">Premium</div>
-      <div class="col-sm-6 banner">
-        <h2><i class="glyphicon glyphicon-star"></i>We Grade Sneakers<i class="glyphicon glyphicon-star"></i></h2></div>
-      <div class="col-sm-3 banner">Service</div>
+<!-- start header section   -->
+  <div class="emailSignupHeader col-sm-12">
+    <div class="col-sm-12">
+      <img id="logoType" src="images/TSSFullWhite.png"/>
+    </div>
+  </div>  
+  <div id="banner_container" class="pad-section text-vcenter">
+    <div class="col-sm-12">
+      <h3 class="text-vcenter">Premium Service</h3>
+    </div>
+    <div class="col-sm-12 banner">
+      <h2><i class="glyphicon glyphicon-star"></i>We Grade Sneakers<i class="glyphicon glyphicon-star"></i></h2>
+    </div>
+    <div class="col-sm-12 pad-section">
+      <p>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</png>
     </div>  
+    </div>
       <br>
-<!-- service steps section -->
-  <div id="services" class="pad-section">
-      <div class="container">
-        <h2 class="text-center">The Process</h2> <hr />
-        <div class="row text-center">
-          <div class="col-sm-4 col-xs-6">
-            <img src="images/step1.png"/>
-            <h4>1. You send us your shoes.</h4>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <img src="images/step2.png"/>
-            <h4>2. We inspect, grade and package your shoes.</h4>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-             <img src="images/step3.png"/>
-            <h4>3. We'll handle the rest. </h4>
-          </div>
+<!-- end header section -->
+<!-- start process and steps section -->
+  <div id="process_container" class="pad-section">
+      <hr/>
+    <div class="text_container">
+      <div class="text-center col-sm-3">
+        <h2>Our Process</h2> 
+      </div>
+      <div class="col-sm-9">
+        <p>As true sneakerheads, we take extra special care in grading and staging your prized possessions for display or for sale. Our unique grading algorithm ensures that you're getting the most accurate rating in the industry. </p>
+      </div>
+    </div>
+  <hr/>
+  <br>
+    <div class="images_container">  
+      <div class="row text-center">
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/step1.png"/>
+          <h4>1. You send us your shoes.</h4>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/step2.png"/>
+          <h4>2. We inspect, grade and package your shoes.</h4>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+           <img src="images/step3.png"/>
+          <h4>3. We'll send them back (or along to their next desination). </h4>
         </div>
       </div>
     </div>
-  <br><br>
+  </div>
+<!-- end process and steps section    -->
+<!-- start services section -->
     <div id="services_container" class="pad-section">
       <div class="col-sm-6">
         <div class="panel panel-default">
@@ -134,17 +155,30 @@
         </div>
       </div>
     </div>  
-    <div class="col-sm-12">
+<!-- end services section     -->
+<!-- start the product section -->
+    <div id="product_container" class="pad-section">
+      <hr/>
+    <div class="text_container">
+      <div class="text-center col-sm-3">
+        <h2>The Product</h2> 
+      </div>
+      <div class="col-sm-9">
+        <p>Our unique packaging options ensure a sturdy (and tamper-proof) display. Be the envy of the industry with crystal clear acrylic boxes showing off your prized possessions.</p>
+      </div>
+    </div>
+  <hr/>
+    <div class="images_container col-sm-12">
         <img src="images/finalPigeon.png"/>
     </div>
-          <br>
-          <h3>The final product!</h3>
    </div>
+<!-- end the product section    -->
+<!-- start signup section -->
    <div class="emailSignupForm text-vcenter">
         <form id="newsletter-signup" method="post">
           <input type="hidden" value="signup" name="action">
         <fieldset>
-            <h3>Interested? Enter your email address below for exclusive offers, promos and discounts!<br><br><label for="signup-email">Sign up today to get 20% off your first order:</label></h3><br>
+            <h3>Sign up. Stay tuned.<br><br><label for="signup-email">Sign up today to get 20% off your first order:</label></h3><br>
             <input type="text" name="signup-email" id="signup-email" />
             <input type="submit" id="signup-button" value="Sign Up!" />
             <br><br>
@@ -152,6 +186,7 @@
         </fieldset>
       </form>
   </div>
+<!-- end signup section   -->
   <div class="emailSignupForm text-vcenter">
     <p>Sneaker grading is a method of standardizing and determining the condition and value of a particular pair of shoes. </p>
   </div>
