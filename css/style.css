@@ -3,7 +3,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01em;
 }
@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01em;
 }
@@ -52,6 +52,12 @@ p {
 .text-vcenter.services {
   display: block;
 }
+
+
+
+
+
+
 
 /* additional sections */
 #home {
@@ -137,6 +143,8 @@ ul li {
 
 footer {
   padding: 20px 0;
+  background: black;
+  color: white;
 }
 footer .glyphicon {
   color: #333333;
