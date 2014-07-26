@@ -87,7 +87,7 @@
   <div id="banner_container" class="pad-section text-vcenter">
     
 
-<!--     <div class="col-sm-12 banner">
+    <div class="col-sm-12 banner">
       <h2>
         <div class="col-sm-2">
           <i class="glyphicon glyphicon-star"></i>
@@ -97,11 +97,9 @@
           <i class="glyphicon glyphicon-star"></i>
         </div>
       </h2>
-    </div> -->
+    </div>
 
-
-
-    <div class="col-sm-12 banner">
+<!--     <div class="col-sm-12 banner">
       <h2>
         <div class="col-sm-3">
           
@@ -112,11 +110,11 @@
           <i class="glyphicon glyphicon-star"></i>
         </div>
       </h2>
-    </div>
+    </div> -->
 
 
     <div class="col-sm-12 pad-section">
-      <p>Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</p><p><a href="#bizDetails" data-toggle="modal">Who is The Sneaker Savant?</a></p>
+      <p><span class="hook">Don't let others judge your sneakers - we'll do it for you! Let us accurately grade YOUR sneakers; for true collectors, enthusiasts and sneakerheads.</span></p><p><a href="#bizDetails" data-toggle="modal"><i class="glyphicon glyphicon-user white"></i></a></p>
     </div>  
     </div>
 <!-- end header section -->
@@ -128,7 +126,7 @@
         <h2>Our Process</h2> 
       </div>
       <div class="col-sm-9">
-        <p>Sneaker grading is a method of standardizing the condition of a particular pair of shoes. Using our grading service helps determine the true value of a particular pair of shoes. As true sneakerheads, we take extra special care in grading and staging your prized possessions for display or prepping them for sale. Our unique grading algorithm ensures that you're getting the most accurate rating in the industry. </p>
+        <p>Sneaker grading is a method of standardizing the condition of a particular pair of sneakers. Using our grading service helps determine their true value. As true sneakerheads, we take extra special care in grading and staging your prized possessions for display or prepping them for sale. Our unique grading algorithm ensures that you're getting the most accurate rating in the industry. </p>
       </div>
     </div>
   <hr/>
@@ -158,8 +156,8 @@
         <div class="panel-heading">
           <h2>
             <i class="glyphicon glyphicon-certificate silver"></i>
-            Silver Service
-            <i class="glyphicon glyphicon-certificate silver"></i></h2>
+            <br>Silver Service
+          </h2>        
         </div>
         <div class="panel-body lead">
           <p>
@@ -172,8 +170,8 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h2>
-            <i class="glyphicon glyphicon-certificate gold"></i> Gold Service
             <i class="glyphicon glyphicon-certificate gold"></i>
+            <br>Gold Service
           </h2>
         </div>
         <div class="panel-body lead">

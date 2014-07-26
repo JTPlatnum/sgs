@@ -53,6 +53,14 @@ p {
 
 }
 
+#banner_container span.hook{
+    font-size: 22px;
+}
+
+i.glyphicon.white {
+    color: white;
+}
+
 i.glyphicon.silver {
     color: silver;
 }
@@ -70,6 +78,10 @@ i.glyphicon.gold {
     color: black;
 }
 
+#product_container.pad-section {
+    padding-top: 5px;
+}
+
 #services_container {
     text-align: center;
 }
@@ -80,6 +92,7 @@ i.glyphicon.gold {
 
 .panel-default>.panel-heading {
     background-color: white;
+    border: 0px solid white;
 }
 
 .panel-default {
@@ -106,7 +119,7 @@ i.glyphicon.gold {
 img#logoType {
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 450px;
+    max-width: 375px;
 }
 
 img.medals {
@@ -230,4 +243,8 @@ input {
   .text_container .col-sm-9 {
     border-left: 0px solid white;
   }
+
+  p {
+    text-align: center;
+    }
 }
