@@ -143,7 +143,7 @@
         </div>
         <div class="col-sm-4 col-xs-6">
            <img src="images/step3.png"/>
-          <p>3. We'll send them back (or to their next desination). </p>
+          <p>3. We'll send them back (or to their next destination). </p>
         </div>
       </div>
     </div>
@@ -161,7 +161,7 @@
         </div>
         <div class="panel-body lead">
           <p>
-           The Silver service is provided for our customers with shoes that are meant to be worn. We grade your shoes, give them our hologram grade hang tag and seal them in clear 6 mil polypropelene. 
+           The Silver service is provided for our customers with shoes that are meant to be worn. We grade your shoes, give them our hologram grade hang tag and seal them in clear 6 mil polypropylene. 
           </p>
         </div>
       </div>
