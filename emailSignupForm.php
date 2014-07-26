@@ -90,11 +90,11 @@
     <div class="col-sm-12 banner">
       <h2>
         <div class="col-sm-2">
-          <i class="glyphicon glyphicon-star"></i>
+          <i class="glyphicon glyphicon-star silver"></i>
         </div>
         <div class="col-sm-8"><span class="upper">We Grade Sneakers</span></div>
         <div class="col-sm-2">
-          <i class="glyphicon glyphicon-star"></i>
+          <i class="glyphicon glyphicon-star silver"></i>
         </div>
       </h2>
     </div>
