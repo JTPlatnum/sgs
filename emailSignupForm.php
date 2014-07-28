@@ -206,7 +206,7 @@
           <input type="hidden" value="signup" name="action">
         <fieldset>
             <h2>Sign up. Stay tuned.</h2>
-            <br><label for="signup-email">We're going to be introducing some interesting products and information in the coming weeks. <br>Sign up today to get 20% off your first order:</label><br>
+            <br><label for="signup-email">We're going to be introducing some interesting products and information in the coming weeks. <br>Sign up today for a special deal on your first order:</label><br>
             <input type="text" name="signup-email" id="signup-email" />
             <input type="submit" id="signup-button" value="Sign Up!" />
             <br><br>
@@ -231,7 +231,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4>About The Sneaker Savant and Contributors</h4>
+            <h4>About The Sneaker Savant</h4>
           </div>
           <div class="modal-body">
             <div id="PageContent">
