@@ -33,8 +33,22 @@ p {
 .emailSignupHeader img#banner {
     height: auto;
     width: 100%;
-    border-bottom: 1px solid white;
     padding: 10px;
+}
+
+#socialMediaIconContainer ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+#socialMediaIconContainer ul li {
+    display: inline-block;
+    background-color: black;
+}
+
+#socialMediaIconContainer ul li a img {
+    width: 32px;
+    height: 32px;
 }
 
 #banner_container {
@@ -220,7 +234,7 @@ input {
     background-size: contain;
 }
  
-.response-success {
+/*.response-success {
    background:url(../images/tick.png) left top no-repeat;
    height: 20px;
    width: 20px;
@@ -232,7 +246,7 @@ input {
    height: 20px;
    width: 20px;
    background-size: contain;   
-}
+}*/
 
 #bizDetails #PageContent img {
     padding-right: 10px; 

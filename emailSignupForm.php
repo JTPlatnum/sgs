@@ -74,14 +74,40 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/emailSignupForm.css" rel="stylesheet" />
+  <link href="css/sprite.css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans|Oswald|Roboto' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>
+
 <!-- start header section   -->
   <div class="emailSignupHeader col-sm-12">
-    <div class="col-sm-12">
-      <img id="logoType" src="images/TSSFullWhite.png"/>
+    <div id="logoType" class="col-sm-12">
+      <div class="col-sm-6">
+        <img id="logoType" src="images/TSSFullWhite.png"/>
+      </div>
+      <div id="socialMediaIconContainer" class="col-sm-6">
+        <ul>
+          <li>
+            <a href="https://twitter.com/sneakersavant" target="_blank"><img class="s-32-twitter"></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/thesneakersavant" target="_blank"><img class="s-32-facebook"></a>
+          </li>
+          <li>
+            <a href="http://instagram.com/thesneakersavant" target="_blank"><img class="s-32-instagram"></a>
+          </li>
+          <li>
+            <a href="http://tinyurl.com/mzd8z9z" target="_blank"><img class="s-32-ebay"></a>
+          </li>          
+          <li>
+            <a href="http://thesneakersavant.com/blog/wordpress/" target="_blank"><img class="s-32-wordpress"></a>
+          </li>
+          <li>
+            <a href="mailto:admin@thesneakersavant.com?Subject=Hello" target="_blank"><img class="s-32-email"></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>  
   <div id="banner_container" class="pad-section text-vcenter">
@@ -218,7 +244,6 @@
 <!-- start footer section -->
   <footer>
     <div class="container" class="col-sm-12">
-
       <p class="text-right">
         <a href="#legalDetails" data-toggle="modal"> Legal </a><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Copyright &copy; The Sneaker Savant 2014</small>
