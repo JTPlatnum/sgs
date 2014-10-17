@@ -1,5 +1,10 @@
 $(document).ready(function (){
 
+$('#orderNow').on('click', function (){
+  $('#veenproducts').addClass('order');
+});
+
+
 /*START mail Signup*/
     $('#newsletter-signup').submit(function(){
  
